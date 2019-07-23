@@ -1,4 +1,5 @@
 // This file is required by the index.html file and will
 // be executed in the renderer process for that window.
 // All of the Node.js APIs are available in this process.
-var sq = require("sqlite3");
+var sqlite3 = require("sqlite3");
+console.log(sqlite3);
